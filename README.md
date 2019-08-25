@@ -8,10 +8,10 @@
 - `styled-components`
 - `react-loadable`
 - `whatwg-fetch`
-
+- `qs`
 
 ```javascript
-    yarn add react-router-dom  redux   react-redux  redux-action  react-thunk  styled-components  react-loadable  whatwg-fetch
+    yarn add react-router-dom  redux   react-redux  redux-action  react-thunk  styled-components  react-loadable  whatwg-fetch qs
 ```
 
 
