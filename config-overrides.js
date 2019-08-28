@@ -3,11 +3,11 @@ const { override,fixBabelImports, addWebpackAlias } = require('customize-cra');
 const path = require("path");
 module.exports = override(
      // 按需加载
-    // fixBabelImports('import',{
-    //     libraryName:'antd-mobile',
-    //     libraryDirectory:'es',
-    //     style:'css',
-    // }),
+    fixBabelImports('import',{
+        libraryName:'antd-mobile',
+        libraryDirectory:'es',
+        style:'css',
+    }),
     //别名配置
     addWebpackAlias({        
         ["@"]:path.resolve(__dirname,"./src"),

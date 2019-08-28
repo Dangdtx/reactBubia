@@ -6,8 +6,8 @@ export default class Headers extends Component {
         return (
             <HeadersWrapper>
                 <div className="header_left">
-                    <a href="http://m.dangdang.com/touch/?t=1566726931">
-                        <img src={logo} alt=""/>
+                    <a href="#">
+                        <img src= {logo} alt=""/>
                     </a>
                 </div>
                 <div className="header_center">
@@ -15,7 +15,7 @@ export default class Headers extends Component {
                     <input type="text"  placeholder="红星照耀中国"/>
                 </div>
                 <div className="header_right">
-                    <a href="">
+                    <a href="#">
                         <div className="iconfont">&#xe634;</div>
                     </a>
                 </div>

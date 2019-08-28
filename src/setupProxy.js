@@ -1,8 +1,10 @@
 const proxy = require("http-proxy-middleware");
 
 module.exports = (app)=>{
-    app.use(proxy("/index.php",{
-        target:"http://touch.m.dangdang.com",
+    app.use(proxy("/show",{
+        target:"https://m.nubia.com",
         changeOrigin:true,
-    }))
+    })) 
 }
+
+// https://m.nubia.com/show/page/block?pageType=5

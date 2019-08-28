@@ -30,7 +30,7 @@ import { Home,
             meta:{
                 flag:true,
             },
-            name:"值得买",
+            name:"发现",
             icon:"\ue617"
         },
         {
@@ -49,7 +49,7 @@ import { Home,
                 flag:true,
                 auth:true
             },
-            name:"我的当当",
+            name:"我的",
             icon:"\ue67a"
         }
     ]

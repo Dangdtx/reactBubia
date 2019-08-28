@@ -1,6 +1,7 @@
 import React, { Component } from 'react' 
 import {Redirect,Switch} from "react-router-dom"
 import {routeConfig} from "@router"
+
 import BaseRoute from "@common/baseRoute"
 export default class App extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class App extends Component {
               <BaseRoute key={index} {...item}/>
             ))
           }
+ 
       </Switch>
     )
   }

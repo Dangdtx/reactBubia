@@ -2,30 +2,26 @@ import styled from "styled-components"
 
 export const HeadersWrapper = styled.div`
     width:100%;
-    height:.7rem;
-    background-color:#FFFFFF; 
+    height:1rem;
+    background:rgba(255,255,255,.2); 
     position: fixed;
     left:0;
     top:0;
     display:flex;
     justify-content:center;
     align-items:center;
+    padding:.1rem .15rem;
     z-index:10;
     .header_left{
         vertical-align: middle;
-        height: .52rem;
-        width: .44rem;
-        position: absolute;
-        top: 0;
-        left: 0;
-        a{
+        height: .32rem;
+        width: 40%;
+         
+        a{ 
             display: block;
             width: 100%;
             height: 100%;
-            text-align: center;
-            font-size: 1.5rem;
-            color: #f0374e; 
-            margin:.1rem 0 0 .1rem;
+            text-align: center;  
         }
         img{
             width:100%;
@@ -35,40 +31,42 @@ export const HeadersWrapper = styled.div`
     } 
     .header_center{
         position:relative;
-        width:75%;
-        height:.42rem; 
+        width:78%;
+        height:.7rem; 
         background:  #b5bec5;
-        border-radius:.2rem;
+        border-radius:.4rem;
         display:flex:
         justify-content:center;
         align-items:center;
-        margin:0rem;
+        margin-left:.2rem;
         padding:0rem;
+        margin-right:.3rem;
         span{
+            font-size:.24rem;
             position: absolute;
-            top: .12rem; 
-            left:.25rem;
+            top: .2rem; 
+            left:.3rem;
+        }
+        .iconfont{
+            font-size:.3rem;
         }
         input{
-            width:80%;
+            width:70%;
             position: absolute;
-            top: .12rem; 
-            left: .5rem;
+            top: .24rem; 
+            left: 1rem;
             background:  #b5bec5; 
             outline: none;
             border:none;
-            font-size: .13rem; 
+            font-size: .24rem; 
              
         }
         
     }
     .header_right{
-        vertical-align: middle;
-        position: absolute;
-        top: .25rem;
-        right: 0;
-        width: .7rem;
-        height: .7rem;
+        vertical-align: middle; 
+        width: 12%;
+        height: .2rem;
         a{
             display:block;
             width:100%;
@@ -76,6 +74,9 @@ export const HeadersWrapper = styled.div`
             div{
                 width:100%;
                 height:100%;
+            }
+            .iconfont{
+                font-size:.3rem;
             }
         }
     }
